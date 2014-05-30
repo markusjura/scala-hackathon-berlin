@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Scala Hackathon Berlin</title>
+
+    <meta name="description" content="Scala Hackathon Berlin">
+    <meta name="author" content="Markus Jura">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/custom.css" id="theme">
+    <link rel="stylesheet" href="lib/css/idea.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<aside style="display: block; position: fixed; bottom: 20px; left: 20px; z-index: 30;">
+    <a href="http://typesafe.com"><img src="assets/logo.png"></a>
+</aside>
+
+<div class="reveal">
+
+<div class="slides">
+
+<!-- ########################################################################################### -->
+<!-- BEGIN
+<!-- ########################################################################################### -->
+
+<section id="content" data-markdown data-background="#53cdec" data-state="h2Uppercase"><script type="text/template">
+![Scala Days](assets/scaladays-logo.png "scala-days") 
+##Hackathon
+</script></section>
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Agenda
+
+- [What are we doing](#/what-are-we-doing) <!-- .element: class="agendaItem" -->
+- [Publish Activator Templates](#/activator-templates) <!-- .element: class="agendaItem" -->
+- [Deploy Play App to the Cloud](#/play-deploy-cloud) <!-- .element: class="agendaItem" -->
+</script></section>
+
+</section>  
+
+
+<!-- ########################################################################################### -->
+<!-- What are we doing
+<!-- ########################################################################################### -->
+
+<section>
+
+<section id="what-are-we-doing" data-markdown data-background="#53cdec" data-state="h2Uppercase"><script type="text/template">
+## What are we doing
+</script></section>
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Actually, just having fun!
+
+![Geek](assets/geek.jpg "geek")
+</script></section>
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## But, we are in Germany. So let&#39;s have some rules!
+</script></section>
+
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Rules
+
+- 12 hours hacking
+- Scala App
+- Groups: 1 - 4 hackers
+</script></section>
+
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Schedule
+
+- <b>Friday</b>
+  - Talk: How to publish Activator Template
+  - Talk: How to deploy Play app to the Cloud
+  - Meeting, Finding Ideas and Groups
+  - Drinks 
+![Drinks](assets/drinks.jpg "drinks")
+- <b>Saturday</b>
+  - 9:00 - 21:00: Hacking
+- <b>Sunday</b>
+  - 9:00 - 13:00: Presentation + Awards  
+</script></section>
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Voting
+
+- Voting App
+  - Each group has 3 votes
+    - 1st vote: 3 points
+    - 2nd vote: 2 points
+    - 3rd vote: 1 point
+- Group with most points wins!
+</script></section>
+
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Awards (per person)
+
+1. Scala Days Ticket
+2. $100 Voucher [Typesafe Shop](http://shop.typesafe.com/) / Donation to [Kojo](http://www.kogics.net/kojo)
+3. $50 Voucher [Typesafe Shop](http://shop.typesafe.com/) / Donation to [Kojo](http://www.kogics.net/kojo)
+</script></section>
+
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Thanks
+
+- Piyush Purang
+- Dajana Günther
+- Immobilienscout24
+- Laura Masterson
+</script></section>
+
+</section>  
+
+
+
+<!-- ########################################################################################### -->
+<!-- Publish Activator Templates
+<!-- ########################################################################################### -->
+
+<section>
+
+<section id="activator-templates" data-markdown data-background="#53cdec" data-state="h2Uppercase"><script type="text/template">
+## Publish Activator Templates
+</script></section>
+
+</section>
+
+
+<!-- ########################################################################################### -->
+<!-- Deploy Play App to the Cloud
+<!-- ########################################################################################### -->
+
+<section>
+
+<section id="play-deploy-cloud" data-markdown data-background="#53cdec" data-state="h2Uppercase"><script type="text/template">
+## Deploy Play App to the Cloud
+</script></section>
+
+<!-- ########################################################################################### -->
+
+<section data-markdown><script type="text/template">
+## Supported PaaS
+
+- [Heroku](http://www.playframework.com/documentation/2.3.x/ProductionHeroku)
+- [Cloudbees](http://www.playframework.com/documentation/2.3.x/Deploying-to-CloudBees)
+- [Cloud Foundry](http://www.playframework.com/documentation/2.3.x/Deploying-CloudFoundry)
+- [Clever Cloud](http://www.playframework.com/documentation/2.3.x/Deploying-CleverCloud)
+</script>
+</section>
+
+</section> 
+
+</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
